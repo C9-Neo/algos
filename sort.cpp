@@ -12,6 +12,17 @@ using namespace std;
 \param [in] data The data set that will be searched
 \returns location of key if found or -1 if not found
 */
+
+int linearSearch(auto data, auto key)
+{
+for (int i=0; 1 < data.size(); i++)
+{
+	if(data[i] == key){
+return i;
+		}
+	}
+}
+
 void selectionSort(auto& Data) 
 {
 int i, j, minIndex, tmp;for (i = 0; i < Data.size() -1; i++) 
